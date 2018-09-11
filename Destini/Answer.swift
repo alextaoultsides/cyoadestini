@@ -11,7 +11,7 @@ import Foundation
 class Answer {
     
     let answerText: String
-    let nextStory: Story
+    var nextStory: Story! = nil
     
     init(answer: String) {
         answerText = answer
